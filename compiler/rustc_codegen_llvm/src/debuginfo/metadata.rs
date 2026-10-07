@@ -1793,6 +1793,7 @@ pub(crate) fn create_vtable_di_node<'ll, 'tcx>(
         UNKNOWN_LINE_NUMBER,
         vtable_type_di_node,
         true,   // (is_local_to_unit)
+        true,   // (is_definition)
         vtable, // (value)
         None,   // (decl)
         None::<Align>,
